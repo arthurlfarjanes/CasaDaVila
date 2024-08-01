@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Links -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/favicon.png" type="image/png">
+
+    <!-- Título da página -->
+    <title>Buffet Interativo Casa da Vila: Agendar visita</title>
+
+    <style>
+        .all-in-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100vh !important;
+            background-color: rgb(228, 220, 215);
+            gap: 40px;
+        }
+    </style>
+</head>
+<body  class="all-in">
+
+    <!-- Barra de navegação -->
+    <nav class="nav">
+        <div class="nav-content">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="image/logo.png" alt="Logo Casa da Vila">
+                    <p>Casa da Vila</p>
+                </div>
+            </a>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="entrar.html">Entrar</a>
+                <a href="agendar.html">Agendar</a>
+                <a href="professor.html">Professor</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <div class="content">
+            <h1 class="titulo">Agende uma visita à Casa da Vila:</h1>
+            <h2 class="subtitulo">Venha conhecer nosso espaço multisensorial de aprendizado!</h2>
+
+            <div class="line"></div>
+
+            <p class="texto">
+                O <span class="bold">Buffet Interativo Casa da Vila</span> oferece às crianças um espaço <span class="bold">multisensorial</span> ao ar livre, tendo como pontos mais fortes o <span class="bold">contato</span> direto com a <span class="bold">natureza</span> e a <span class="bold">socializaçao constante</span> entre os alunos e docentes.
+            </p>
+
+            <p class="texto">
+                Para você, que procura um lugar de <span class="bold">aprendizado</span> adequado para sua criança, temos tudo o que é necessário para <span class="bold">transformar</span> o ato de aprender em algo comum, recorrente e <span class="bold">prazeroso</span>. <span class="bold">Agende</span> já a sua <span class="bold">visita</span> e venha conhecer a Casa da Vila, para assim ter a certeza de que <span class="bold">aqui é o lugar certo</span>!
+            </p>
+        </div>
+
+    </main>
+
+    <div class="container">
+        <form class="content">
+        
+            <h1 class="titulo">Formulário de Agendamento</h1>
+            <h2 class="subtitulo">Preencha com as informações requisitadas:</h2>
+            <div class="line"></div>
+
+            <h3 class="title-campo">Dados Pessoais</h3>
+            <div class="campo-form">
+                <label for="nome" class="label-form">Nome <span class="red">*</span></label>
+                <input type="text" name="nome" id="nome" class="input-form" placeholder="Seu primeiro nome aqui">
+            </div>
+            <div class="campo-form">
+                <label for="sobrenome" class="label-form">Sobrenome <span class="red">*</span></label>
+                <input type="text" name="sobrenome" id="sobrenome" class="input-form" placeholder="Seu sobrenome aqui">
+            </div>
+
+            <div class="line-form"></div>
+
+            <h3 class="title-campo">Dados da Conta</h3>
+            <div class="campo-form">
+                <label for="email" class="label-form">E-mail <span class="red">*</span></label>
+                <input type="email" name="email" id="email" class="input-form" placeholder="example@example.com">
+            </div>
+            <div class="campo-form">
+                <label for="senha" class="label-form">Senha <span class="red">*</span></label>
+                <input type="password" name="senha" id="senha" class="input-form" placeholder="**********">
+            </div>
+
+            <div class="line-form"></div>
+
+            <h3 class="title-campo">Dados da Visita</h3>
+            <div class="campo-form">
+                <label for="date" class="label-form">Data <span class="red">*</span></label>
+                <input type="date" name="date" id="date" class="input-date">
+            </div>
+            <div class="campo-form">
+                <label for="text" class="label-form">Motivo da visita <span class="red">*</span></label>
+                <input type="text" name="text" id="text" class="input-form" placeholder="Descreva a razão pela qual deseja nos visitar">
+            </div>
+
+            <input type="submit" value="Enviar" class="btn">
+
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="top-footer">
+            <div class="column1">
+                <p>Navegue em nosso site:</p>
+                <a href="index.html">Home</a>
+                <a href="entrar.html">Entrar</a>
+                <a href="agendar.html">Agendar</a>
+                <a href="professor.html">Professor</a>
+            </div>
+            <div class="logo">
+                <img src="image/logo.png" alt="Logo Casa da Vila">
+                <p>Casa da Vila</p>
+            </div>
+            <div class="column4">
+                <p>Fale conosco:</p>
+                <div class="icons">
+                    <img src="image/logo-instagram.svg" alt="Instagram">
+                    <img src="image/logo-facebook.svg" alt="Facebook">
+                    <img src="image/logo-whatsapp.svg" alt="Whatsapp">
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <p>All rights reserved ©</p>
+        </div>
+    </footer>
+</body>
+</html>
